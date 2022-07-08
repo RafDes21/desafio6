@@ -1,0 +1,18 @@
+<% if(productos){ %>
+    <% productos.map((producto, index)=>{ %>
+        <div class="card " style="width: 15rem;margin: 40px 20px;box-shadow: 4px 4px 4px darkgray;">
+            <img style="height:65% ;" src="<%= producto.thumbnail %>" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center text-uppercase" >
+                    <%= producto.title %>
+                </h5>
+                <p class="card-text">
+                   Precio: $ <%= producto.price %>
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+        <% }) %>
+        <% } else{ %>
+            <h3 class="alert alert-danger" style="flex:auto; text-align:center">no hay productos para mostrar</h1>
+        <% } %>

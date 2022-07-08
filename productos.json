@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "title": "heladera GAFA",
+    "price": "85000",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTNcILGxUvkgac7Yd3Kfa6TrU6q8uiLfd8tA&usqp=CAU"
+  },
+  {
+    "id": 2,
+    "title": "TV LG 55",
+    "price": "78000",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLO3XgVzOoICyiKj_XKS60g3cqT9KMWZQS5Q&usqp=CAU"
+  }
+  
+]
