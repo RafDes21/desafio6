@@ -1,0 +1,34 @@
+<div
+  id="chat"
+  class="bg-light p-5 rounded-3"
+  style="
+    margin: 20px auto;
+    width: 50%;
+    height: auto;
+    box-shadow: 2px 2px 15px 10px rgba(0, 139, 139, 0.441);
+  "
+>
+  <h2 class="text-center">CENTRO DE MENSAJES</h2>
+  <form onsubmit="return addMessage(this)">
+    <div style="border-bottom: 1px solid black">
+      <input
+        style="margin: 10px 0; padding: 5px"
+        type="email"
+        name=""
+        id="email"
+        placeholder="productos@mail.com"
+      />
+    </div>
+    <div id="mensajes" class="overflow-auto" style="height: 200px"></div>
+    <div style="border-top: 1px solid black">
+      <input
+        style="margin: 10px 0 10px 0; padding: 5px"
+        type="text"
+        name=""
+        id="mensaje"
+        placeholder="ingrese su mensaje"
+      />
+      <button type="submit" class="btn btn-success">Enviar Mensaje</button>
+    </div>
+  </form>
+</div>
